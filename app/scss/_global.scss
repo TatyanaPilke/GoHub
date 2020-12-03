@@ -16,12 +16,12 @@ body {
 }
 
 body {
-  // font-family: 'Quicksand', sans-serif;
+  font-family: 'Brown-Light', sans-serif;
   font-style: normal;
-  // font-weight: 400;
-  font-size: 16px;
-  // color: grey;
-  background-color: #fff;
+  font-weight: 400;
+  font-size: 23px;
+  color: $text;
+  background-color: $white;
   min-width: 320px;
   overflow-x: hidden;
 }

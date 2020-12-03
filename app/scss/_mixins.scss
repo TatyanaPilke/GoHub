@@ -3,3 +3,9 @@
     @content; 
   } 
 }
+
+@mixin text-title {
+  color: #32325d;
+  font-size: 48px;
+  line-height: 62px;
+}
