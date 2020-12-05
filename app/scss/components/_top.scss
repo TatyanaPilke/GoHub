@@ -1,0 +1,25 @@
+.top {
+  max-width: 460px;
+
+  &__title {
+    font-weight: 700;
+    @include text-title;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 34px;
+  }
+
+  &__link-questions {
+    font-size: 19px;
+    font-weight: 400;
+    color: $text-menu;
+
+    &:hover {
+      color: $bg-btn;
+    }
+  }
+}

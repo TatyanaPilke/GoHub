@@ -3,67 +3,11 @@
 @import 'global';
 @import 'mixins';
 
-.header {
 
-  &:after,
-  &:before {
-    content: " ";
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-  }
+@import 'components/_header';
+@import 'components/_link';
+@import 'components/_top';
+@import 'components/_header-top';
 
-  &:after {
-    background-image: url(../images/shape.png);
-    background-position: top right;
-    width: 1060px;
-    height: 995px;
-    right: 0;
-  }
 
-  &:before {
-    content: " ";
-    background-image: url(../images/vector1.png);
-    background-position: top left;
-    width: 845px;
-    height: 700px;
-    left: 7%;
-  }
-
-  &__inner {
-    min-height: 140px;
-    z-index: 2;
-  }
-}
-
-.menu {
-
-  &__nav {
-    margin: 0;
-    padding: 0;
-  }
-
-  &__list {
-    margin-left: 50px;
-
-    &:first-child {
-      margin-left: 0;
-    }
-  }
-
-  &__link {
-    color: $text-menu;
-    font-size: 19px;
-    font-weight: 700;
-
-    &--sign {
-      color: $white;
-      padding: 10px 23px;
-      border-radius: 3px;
-      box-shadow: -6.691px 7.431px 20px 0px rgba(132, 92, 255, 0.2);
-      background-color: $bg-btn;
-    }
-  }
-}
+@import 'page-index.scss';

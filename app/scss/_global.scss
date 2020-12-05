@@ -16,14 +16,26 @@ body {
 }
 
 body {
-  font-family: 'Brown-Light', sans-serif;
+  font-family: 'Brown', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 23px;
   color: $text;
+  line-height: 1.4;
   background-color: $white;
   min-width: 320px;
   overflow-x: hidden;
+}
+
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
 }
 
 .container {
@@ -64,3 +76,4 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
