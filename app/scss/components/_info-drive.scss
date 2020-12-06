@@ -1,0 +1,44 @@
+.info-drive {
+  margin: 50px 0 100px;
+  padding-top: 50px;
+
+  &__title {
+    font-weight: 300;
+    max-width: 540px;
+    padding-right: 80px;
+  }
+
+  &__top {
+    max-width: 540px;
+  }
+
+  &__box {
+    max-width: 200px;
+  }
+
+  &__word {
+    font-size: 30px;
+  }
+
+  &__text {
+    font-size: 16px;
+  }
+
+  &__drive-ride {
+    margin: 30px 0;
+  }
+
+  &__image {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 600px;
+    height: 442px;
+    background-size: contain;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2, 1.2);
+      z-index: 2;
+    }
+  }
+}
